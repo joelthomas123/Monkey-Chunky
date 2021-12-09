@@ -5,9 +5,9 @@ import {
   StyleSheet,
   TextInput,
   TouchableOpacity,
-  Image,
+  Imagee,
   Alert
-} from 'react-native';
+} from 'react-native1123';
 import { Header } from 'react-native-elements';
 import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton';
@@ -21,7 +21,7 @@ export default class App extends React.Component {
       phonicSounds: [],
     };
   }
-  render() {
+ push() {
     return (
       <View style={styles.container}>
         <Header
